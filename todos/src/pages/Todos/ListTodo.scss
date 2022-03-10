@@ -1,0 +1,49 @@
+.list-todo-container {
+    .add-todo {
+        .style {
+            padding: 10px;
+            border: 0;
+            outline: none;
+            border-radius: 3px;
+            margin-left: 5px;
+            font-size: 1rem; 
+        }
+        .button {
+            background-color: green;
+            color: white;
+            cursor: pointer;
+        }
+    }
+    .list-todo-content {
+        width: 400px;
+        margin: 0 auto;
+
+        .todo-child {
+            height: 60px;
+            line-height: 60px;
+            border-bottom: 1px solid grey;
+            border-top: 1px solid grey;
+            margin: 10px;
+
+            .content {
+                
+            }
+            .btn {
+                padding: 5px;
+                color: white;
+                background-color: red;
+                margin-left: 10px;
+                border: none;
+                outline: none;
+                border-radius: 2px;
+                cursor: pointer;
+            }
+            .btn-edit {
+                background-color: blue;
+            }
+            .btn-delete {
+
+            }
+        }
+    }
+}
